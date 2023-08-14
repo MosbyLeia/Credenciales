@@ -1,0 +1,157 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet"
+        href="G:/MWProdev/Proyectos/CredencialesSupervisores/credencialSupervisor.css" media="all" />
+    <link href='https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;700&display=swap' rel='stylesheet'>
+<!-- 
+    <script src="/SiteAssets/lib/ministerio/dist/js/Proyectos-empleo-y-fp/util.js"></script>
+    <script src="/SiteAssets/lib/ministerio/dist/js/Proyectos-empleo-y-fp/credencialSupervisor.js"></script> -->
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-xs-12 col-sm-12 offset-sm-6 mt-3" id="frente1">
+                <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 ml-7">
+
+                    <div class="constancia-wrapper" id="credencialFrente">
+                        <div class="constancia-inner">
+                            <div class="row" style="margin-left: 0px;">
+                                <div class="col-1" id="tituloCredencial">
+                                    <h2 id="Puesto" style="letter-spacing: -0.5px">SUPERVISOR/A</h2>
+
+                                </div>
+
+
+                                <div class="col-8 col-md-10 offset-md-1">
+                                    <div class="col-12 col-md-12">
+                                        <div class="text-grey">
+
+                                            <p id="p1">Programas de xxxxxx</p>
+                                            <p id="p2">Personal de xxxxxxxxx</p>
+
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 col-xl-6 col-xxl-6"
+                                                id="fotoSupervisor">
+
+
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 col-xl-6 col-xxl-6 mt-3"
+                                                id="datosSupervisor">
+                                                <h2>
+                                                    <div id="apellidoSupervisor"></div>
+                                                    <div id="nombreSupervisor"></div>
+                                                    <div class="text-grey"
+                                                        style="font-family: Encode sans; font-size: 9pt !important;"
+                                                        id="nroDNI">
+                                                    </div>
+                                                </h2>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-12" id="colLogoFrente">
+                                            <img class="img-thumbnail" id="logoCatFrente"
+                                                src="G:/MWProdev/Proyectos/CredencialesSupervisores/Logo1.png"
+                                                style="border: none; " alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-xs-12 col-sm-12 offset-sm-6 mt-3" id="dorso1">
+
+                <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+
+                    <div class="constancia-wrapper" id="credencialDorso">
+                        <div class="constancia-inner">
+                            <div class="row" style="margin-left: 0px;">
+                                <div class="col-1" id="dorsoTitulo">
+
+
+                                </div>
+                                <div class="col-8 col-md-10 offset-md-1">
+                                    <div class="col-12 col-md-12">
+                                        <h3 class="text-grey" id="textoDorso">La
+                                            persona que porta esta credencial está facultada para el
+                                            ejercicio de las funciones de xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                            de la entidad xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
+                                        </h3>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="col-12">
+                                            <h3 class="text-grey" id="autorizado">Autorizado por:</h3>
+
+                                        </div>
+                                        <div class="col-12 col-md-10 offset-md-3">
+                                            <img class="img-thumbnail ml-1"
+                                                src="G:/MWProdev/Proyectos/CredencialesSupervisores/Firma.png"
+                                                alt="" style="border: none;" id="firmaDirector">
+                                            <p id="pieFirmaNombre"> MW Prodev</p>
+                                            <p class="pieFirma">Professional </p>
+                                            <p class="pieFirma">web developer</p>
+                                            <p class="pieFirma">xx </p>
+                                            <p class="pieFirma">xx</p>
+
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-12">
+
+                                        <div id="vencimiento"></div>
+                                        <br>
+
+                                    </div>
+
+                                    <div class="col-12 col-md-12" id="colLogoDorso">
+                                        <img class="img-thumbnail" id="logoCatDorso"
+                                            src="G:/MWProdev/Proyectos/CredencialesSupervisores/Logo1.png"
+                                            style="border: none; " alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="pane-content">
+            <div class="">
+                <div class="row justify-content-around">
+
+                    <div class="col-md-3 col-xs-1 ">
+
+
+                        <p> <a type="button" class="btn btn-primary mt-5 bg-success" target="_blank" id="botonImprimir"
+                                onclick='window.print();'>Imprimir</a></p>
+                    </div>
+
+                    <div class="col-md-3 col-xs-1" style="padding: 0px 20px 10px 20px; text-align:center">
+
+                        <p> <a type="button" class="btn btn-primary mt-5 bg-danger" id="botonCerrar"
+                                onclick="history.go(-1)">Cerrar</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>

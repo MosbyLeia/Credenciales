@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;700&display=swap');
+ 
+
+#linksPrincipales{
+  display: none !important;
+}
+
+#frente1, #dorso1{
+  position: relative;
+  min-height: 1px;
+  padding-left: 13px;
+  padding-right: 13px;
+ }
+
+#Puesto,
+#dorsoTitulo {
+
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Encode sans;
+  line-height: 1 !important;
+  font-size: 14pt !important;
+  font-weight: 700 !important;
+ 
+}
+
+#tituloCredencial,
+#dorsoTitulo {
+  background-color: rgb(55, 187, 237);
+  border-radius: 0.5cm;
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius:0 !important;
+  position: relative;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  white-space: nowrap;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  width: 1.3cm !important;
+ 
+}
+
+#p1{
+  font-family: Encode sans; 
+  font-weight: 700 !important; 
+  font-size: 8pt !important;  
+  margin: 5px 0px 0px 0px;
+
+} 
+
+#p2{
+ font-family: Encode sans; 
+ font-weight: 500 !important; 
+ font-size: 8pt !important; 
+ /* line-height: 1 !important; */
+ margin: 0px 0px 0px 0px !important;
+ padding-left: 0px;
+}
+
+.ms-formtable {
+  display: none;
+}
+
+.ms-toolbar {
+  display: none;
+}
+
+#credencialFrente,
+#credencialDorso {
+  border-radius: 0.5cm;
+  padding-left: 0;
+  border: 0.1em solid black;
+  background-image: url("https://intranet.trabajo.gob.ar/empleo/DSGPEyFP/SupervisoresFotos/trama.jpg");
+  background-size: 30rem;
+  background-repeat: no-repeat;
+  background-position-x:right;
+  background-position-y:top;
+ 
+}
+
+
+
+#apellidoSupervisor {
+  margin-top: 2rem;
+
+}
+
+
+#apellidoSupervisor,
+#nombreSupervisor {
+  text-transform: uppercase;
+  color: rgb(80, 83, 92) !important;
+  font-family: Encode sans;
+  font-size: 10pt !important;
+  font-weight: 700 !important;
+
+}
+
+
+ #colLogoDorso, #colLogoFrente {
+  margin-bottom: 0% !important;
+  display: grid !important;
+  place-content:inherit !important
+
+}
+
+.text-grey {
+
+  color: rgb(80, 83, 92) !important;
+
+}
+
+#nroDNI {
+
+  font-family: Encode sans;
+  font-weight: 500;
+  font-size: 9pt !important;
+  line-height: 3.5 !important;
+}
+
+
+#logoMTEYSSDorso {
+  border: none;
+  width: 3.8cm;
+  height: 1.6cm;
+  margin-top: -0.8rem;
+  margin-left: 4rem;
+
+}
+
+#logoMTEYSSFrente {
+  border: none;
+  width: 3.8cm;
+  height: 1.6cm;
+  margin-top: 2.5rem;
+  margin-left: 3rem;
+
+}
+
+#datosSupervisor {
+
+  margin-bottom: 0%;
+  align-items: flex-start;
+  padding-left: 0px;
+}
+
+
+#fotoSupervisor img {
+  margin-top: 2rem;
+  border: 0.1em solid rgb(55, 187, 237);
+  width: 2.3cm;
+  height: 2.3cm;
+
+}
+
+#textoDorso {
+  font-family: Encode sans;
+  font-weight: 400;
+  font-size: 8pt !important;
+  margin-left: -25px;
+  
+}
+
+#autorizado {
+  font-family: Encode sans;
+  font-size: 6pt !important;
+  font-weight: 700;
+  margin-left: -40px;
+
+
+}
+
+#vencimiento {
+  font-family: Encode sans;
+  font-size: 7pt !important;
+  font-weight: 400;
+  margin-left: -25px;
+
+}
+
+
+#pieFirmaNombre{
+  margin-top: -24px !important;
+  font-family: Encode sans;
+  font-size: 7pt !important;
+  font-weight: 700;
+  line-height: 0.75 !important;
+}
+
+.pieFirma{
+  font-family: Encode sans;
+  font-size: 7pt !important;
+  font-weight: 400;
+  line-height: 0.75 !important;
+}
+
+#firmaDirector{
+  width: 2cm;
+  
+}
+
+
+@media print {
+
+
+  #frente1, #dorso1{
+   margin: auto;
+   }
+
+  #sectionNavegacion,
+  #jumbotronTitle,
+  .jumbotron_bar,
+  #campaign02,
+  #botonCerrar, .jumbotron .jumbotron_body, #botonImprimir {
+    display: none;
+    }
+
+    #firmaDirector{
+
+      width: 2.5cm !important;
+     
+    }
+  
+    #Puesto,
+#dorsoTitulo {
+
+  font-size: 14pt !important;
+  font-weight: 700 !important;
+ 
+}
+ #frente1, #dorso1{
+  width: 16cm !important;
+  height: 9cm !important;
+  max-width: 48rem !important;
+  max-height: 24rem !important;
+ }
+
+
+
+ #logoMTEYSSFrente {
+ 
+  margin-top: 2rem !important;
+
+}
+ #fotoSupervisor img {
+
+  width: 3.6cm !important;
+  height: 3.6cm !important;
+  margin-left: -2rem !important;
+
+}
+
+
+
+#datosSupervisor {
+
+
+  padding-left: 20px !important;
+}
+
+* { -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;  }
+
+}
+
+
+ 
